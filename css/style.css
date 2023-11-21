@@ -642,8 +642,17 @@
 
 
 
-/* ===============Product page======================= */
+/* ===============Product List page======================= */
 
+.category .cat_list a {
+    color: black;
+}
+
+.category .cat_list a:hover {
+    color: var(--primary);
+    transform: scale(200.9);
+    transform-style: inherit;
+}
 
 .product-item {
     position: relative;
@@ -658,13 +667,13 @@
 
 .product-item .product-image a {
     display: block;
-    background: #3F69AA;
+    background: var(--primary);
     margin-bottom: 15px;
     transition: .3s;
 }
 
 .product-item:hover .product-image a {
-    background: rgba(63, 105, 170, .5);
+    background: var(--primary)
 }
 
 .product-item .product-image img {
@@ -702,7 +711,7 @@
     text-align: center;
     color: #ffffff;
     font-size: 18px;
-    background: #3F69AA;
+    background: var(--primary);
 }
 
 .product-item .product-image .product-action a:last-child {
@@ -710,7 +719,7 @@
 }
 
 .product-item .product-image .product-action a:hover {
-    color: #3F69AA;
+    color: var(--primary);
     background: #ffffff;
 }
 
@@ -729,23 +738,23 @@
 }
 
 .product-item .product-content .title {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .product-item .product-content .title a {
-    color: #3F69AA;
+    color: var(--primary);
     font-size: 18px;
     font-weight: 600;
 }
 
 .product-item .product-content .ratting i {
     font-size: 14px;
-    /* color: #3F69AA; */
+    color: lightgray;
 }
 
 .product-item .product-content .price {
     font-size: 30px;
-    color: #3F69AA;
+    color: black;
     font-weight: 700;
 }
 
@@ -823,7 +832,7 @@
 
 .product-detail .product-slider-single img {
     width: 100%;
-    background: #3F69AA;
+    background: var(--primary);
 }
 
 .product-detail .product-content,
@@ -838,19 +847,19 @@
 }
 
 .product-detail .product-content .title h2 {
-    color: #3F69AA;
+    color: var(--primary);
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
 .product-detail .product-content .ratting i {
-    color: #3F69AA;
+    color: lightgray;
     font-size: 18px;
 }
 
 .product-detail .product-content .price {
-    color: #3F69AA;
+    color: black;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -893,7 +902,7 @@
     padding: 2px 0;
     text-align: center;
     color: #ffffff;
-    background: #3F69AA;
+    background: var(--primary);
     border: none;
 }
 
@@ -902,7 +911,7 @@
     height: 30px;
     color: #ffffff;
     text-align: center;
-    background: rgba(63, 105, 170, .5);
+    background: var(--primary);
     border: none;
 }
 
@@ -914,25 +923,25 @@
     text-align: center;
     color: #ffffff;
     font-size: 22px;
-    background: #3F69AA;
-    border: 1px solid #3F69AA;
+    background: var(--primary);
+    border: 1px solid:var(--primary);
 }
 
 .product-detail .product-content .action a:hover {
-    color: #3F69AA;
+    color: var(--primary);
     background: #ffffff;
 }
 
 .product-detail .nav.nav-pills .nav-link {
     color: #ffffff;
-    background: rgba(63, 105, 170, .5);
+    background: var(--primary);
     border-radius: 0;
 }
 
 .product-detail .nav.nav-pills .nav-link:hover,
 .product-detail .nav.nav-pills .nav-link.active {
     color: #ffffff;
-    background: #3F69AA;
+    background: var(--primary);
 }
 
 .product-detail .tab-content {
@@ -1018,4 +1027,18 @@
 .product-detail .tab-content .form button:hover {
     color: #ffffff;
     background: #3F69AA;
+}
+
+.category .cat_list a{
+    color: black;
+}
+
+.category .cat_list a:hover{
+    color: var(--primary);
+}
+.brands .brand_list a{
+    color: black;
+}
+.brands .brand_list a:hover{
+    color: var(--primary);
 }
